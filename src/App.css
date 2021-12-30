@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+}
+.more button {
+  padding: 0.25rem 0.5rem;
+  margin: 2rem;
+  width: 10%;
+  min-width: 120px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+@import "./styles/_nav.css";
+@import "./styles/_picture.css";
+@import "./styles/_confirmForm.css";
